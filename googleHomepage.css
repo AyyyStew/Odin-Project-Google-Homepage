@@ -1,27 +1,78 @@
+*{
+    border: 1px solid red;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#header-about{
-    position: absolute;
-    margin: 7px 0 0 10px;
-}
-
-#header-products{
-    position: relative;
-    float: right;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#header li{
+li{
     display: inline-block;
 }
 
+#header li{
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    opacity: .75;
+}
+
+#header-about{
+    display: inline-block;
+    /* TODO: align with header products */
+}
+
+#header-products{
+    /* to postiion this relative to the header about */
+    position: relative; 
+    float: right; 
+    display: flex;
+    align-items: center;
+
+}
+
+#logo{
+    padding-top: 21px;
+}
+
 #search-container{
+    font-family: arial, sans-serif;
+    font-size: small;
     position: relative;
-    margin: auto;
+    
+    /* centering horizontal */
     width: 50%;
+    margin: 0 auto;
+
+    /* centers child elements */
+    text-align: center;
+}
+
+footer{
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    text-align: center;
+
+    /* move footer to end of page */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#carbon-neutral{
+    width: 33%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#settings{
+    width: 33%;
+    float: right;
+}
+
+#footer-info{
+    width: 33%;
+    float: left;
 }
