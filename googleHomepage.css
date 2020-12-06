@@ -68,11 +68,20 @@ footer{
 }
 
 #settings{
-    width: 33%;
+    width: 29%;
     float: right;
+    text-align: right;
+    margin-right: 30px;
+
+}
+
+#settings li{
+    /* display: inline-block; */
+    width: 29%;
+    /* padding-left: 17px; */
 }
 
 #footer-info{
-    width: 33%;
+    width: 29%;
     float: left;
 }
