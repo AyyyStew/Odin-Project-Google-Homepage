@@ -50,7 +50,9 @@ li{
 }
 
 footer{
-    font-size: 14px;
+    /* this is to fix the space between inline block */
+    font-size: 0px; 
+
     font-family: arial, sans-serif;
     text-align: center;
 
@@ -61,27 +63,34 @@ footer{
     right: 0;
 }
 
+footer a{
+    font-size: 14px;
+}
+
 #carbon-neutral{
-    width: 33%;
+    width: 32%;
     margin: 0 auto;
     display: inline-block;
 }
 
 #settings{
-    width: 29%;
+    width: 32%;
     float: right;
     text-align: right;
     margin-right: 30px;
 
 }
 
-#settings li{
-    /* display: inline-block; */
-    width: 29%;
-    /* padding-left: 17px; */
+#settings a{
+    padding-left: 27px;
 }
 
 #footer-info{
-    width: 29%;
+    width: 32%;
     float: left;
+    text-align: right;
+}
+
+#footer-info a{
+    padding-left: 27px;
 }
