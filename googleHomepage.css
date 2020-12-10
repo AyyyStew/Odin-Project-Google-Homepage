@@ -52,29 +52,52 @@ li{
 footer{
     /* this is to fix the space between inline block */
     font-size: 0px; 
+    
+    color: rgb(112, 117, 122);
 
     font-family: arial, sans-serif;
     text-align: center;
+
+    background-color: #f2f2f2;
+
+    /* have to set solid before width for width to overite solid */
+    border-top: solid;
+    border-top-width: 1px;
+    border-color: #dadce0;
 
     /* move footer to end of page */
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+
+    height: ;
 }
 
 footer a{
     font-size: 14px;
+    line-height: 40px;
+    height: 100%;
+}
+
+#carbon{
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+#leaf{
+    /* width: 14px; */
+    height: 14px;
+    text-align: center;
 }
 
 #carbon-neutral{
-    width: 32%;
-    margin: 0 auto;
-    display: inline-block;
+    margin-left: 10px;
 }
 
 #settings{
-    width: 32%;
+    min-width: 30%;
     float: right;
     text-align: right;
     margin-right: 30px;
@@ -86,7 +109,7 @@ footer a{
 }
 
 #footer-info{
-    width: 32%;
+    min-width: 30%;
     float: left;
     text-align: right;
 }
