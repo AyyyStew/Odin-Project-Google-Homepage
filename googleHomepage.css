@@ -1,26 +1,18 @@
 *{
+    /* #todo remove when done */
     border: 1px solid red;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li{
+a{
+    height: 100%;
     display: inline-block;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    opacity: .75;
 }
 
 body{
     margin-top: 16px;
-}
-
-#header li{
-    
-    font-size: 13px;
-    font-family: arial, sans-serif;
-    opacity: .75;
 }
 
 #header-about{
@@ -83,8 +75,6 @@ footer{
 footer a{
     font-size: 14px;
     line-height: 40px;
-    height: 100%;
-    display: inline-block;
 }
 
 footer a:hover{
