@@ -34,9 +34,19 @@ body{
     display: flex;
     align-items: center;
     margin-right: 16px;
+    margin-left: 30px;
+}
+
+#profile{
+    margin-left: 15px;
+}
+
+#images{
+    margin-left: 15px;
 }
 
 #app-drawer{
+    margin-left: 15px;
     align-self:stretch;
     background-image: url("./images/apps-24px.svg");
     height: 30px;
