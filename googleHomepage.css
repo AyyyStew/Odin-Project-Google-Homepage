@@ -16,6 +16,10 @@ body{
     margin-top: 16px;
 }
 
+#header{
+    height: 33px;
+}
+
 #header-about{
     margin-left: 10px;
     margin-top: 7px;
@@ -30,7 +34,15 @@ body{
     display: flex;
     align-items: center;
     margin-right: 16px;
+}
 
+#app-drawer{
+    align-self:stretch;
+    background-image: url("./images/apps-24px.svg");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #logo{
