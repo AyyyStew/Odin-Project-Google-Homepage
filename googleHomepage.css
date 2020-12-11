@@ -9,6 +9,7 @@ a{
     font-size: 13px;
     font-family: arial, sans-serif;
     opacity: .75;
+    color: black;
 }
 
 body{
@@ -52,8 +53,6 @@ body{
 footer{
     /* this is to fix the space between inline block */
     font-size: 0px; 
-    
-    color: rgb(112, 117, 122);
 
     font-family: arial, sans-serif;
     text-align: center;
@@ -70,6 +69,11 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+footer a{
+    color: #70757a;
+    opacity: 100%;
 }
 
 footer a{
