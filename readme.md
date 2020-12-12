@@ -3,9 +3,9 @@ Odin Project: Google Homepage
 This is a recreation of the google homepage to practice, solidify, and test my html and css skills.
 
 I come from the world of it support, networking, and backend development so creating a front end is way out of my confort zone.
-I learned a lot and have a deeper respect for frontend devs, designers, and the people who make wix and webflow..
+I learned a lot and have a deeper respect for frontend devs, designers, and the people who make wix and webflow.
 
-This project taught me how to use chrome and firefoxes dev tools to inspect html and css more closely.
+This project taught me how to use chrome and firefox's dev tools to inspect html and css more closely.
 Helped me understand html tags like div, image, svg, and lists.
 Helped me understand the difference between inline and block elements.
 Made me realize how tricky it can be to get things to look good on devices of different screen sizes.
