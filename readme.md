@@ -34,13 +34,13 @@ Things I struggled with:
 positioning, verticle spacing, adjusting horizontal spacee, responsive design
 
 Things that still need to be done:
-add media queries
-make the layout adjust to smaller screen sizes (header, search container, and footer)
-make the whole search bar clickable.
+add media queries,
+make the layout adjust to smaller screen sizes (header, search container, and footer),
+make the whole search bar clickable,
 Logo resizing
 
 
 Things that need refacotring:
-lots of magic numbers in the css
-organize the css 
+lots of magic numbers in the css,
+organize the css, 
 if possible move from ids to classes in the html
