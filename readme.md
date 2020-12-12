@@ -10,6 +10,7 @@ Helped me understand html tags like div, image, svg, and lists.
 Helped me understand the difference between inline and block elements.
 Made me realize how tricky it can be to get things to look good on devices of different screen sizes.
 
+View the site here: https://ayyystew.github.io/Odin-Project-Google-Homepage/
 
 Methodology:
 I opened up google and tried to break the home page into parts.
