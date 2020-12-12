@@ -1,6 +1,6 @@
 *{
     /* #todo remove when done */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 a{
@@ -66,9 +66,6 @@ body{
     background-position: center;
 }
 
-#logo{
-    padding-top: 21px;
-}
 
 #search-container{
     font-family: arial, sans-serif;
@@ -81,6 +78,21 @@ body{
 
     /* centers child elements */
     text-align: center;
+}
+
+#logo{
+    padding-top: 109px;
+}
+
+#search-container form{
+    padding-top: 6px;
+}
+
+#search-bar{
+    padding-top: 5px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
 }
 
 footer{
